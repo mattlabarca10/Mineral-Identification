@@ -102,7 +102,7 @@ tree[8].q2 = 12;
 tree[8].q3 = -1;
 tree[8].q4 = -1;
 
-tree[9].curr_q = "Does this mineral have good cleavage? (yes/no) (ayo) (don't type ayo)";
+tree[9].curr_q = "Does this mineral have good cleavage? (yes/no)"; //(ayo) (don't type ayo)
 tree[9].a1 = "yes";
 tree[9].a2 = "no";
 tree[9].a3 = "";
@@ -132,7 +132,7 @@ tree[11].q2 = 110;
 tree[11].q3 = -1;
 tree[11].q4 = -1;
 
-tree[12].curr_q = "Does this mineral have good cleavage? (yes/no) (ayo) (don't type ayo)";
+tree[12].curr_q = "Does this mineral have good cleavage? (yes/no)";
 tree[12].a1 = "yes";
 tree[12].a2 = "no";
 tree[12].a3 = "";
@@ -162,7 +162,7 @@ tree[14].q2 = 17;
 tree[14].q3 = 20;
 tree[14].q4 = -1;
 
-tree[15].curr_q = "Does the mineral have good cleavage? (yes/no) (ayo) (don't type ayo)";
+tree[15].curr_q = "Does the mineral have good cleavage? (yes/no)";
 tree[15].a1 = "yes";
 tree[15].a2 = "no";
 tree[15].a3 = "";
@@ -212,7 +212,7 @@ tree[19].q2 = 122;
 tree[19].q3 = 123;
 tree[19].q4 = 124;
 
-tree[20].curr_q = "Does the mineral have good cleavage? (yes/no) (ayo) (don't type ayo)";
+tree[20].curr_q = "Does the mineral have good cleavage? (yes/no)";
 tree[20].a1 = "yes";
 tree[20].a2 = "no";
 tree[20].a3 = "";
@@ -608,7 +608,7 @@ int main(){
     }
     }
     int i = 0;
-    while(i < 100){
+    while(i < 100  || i != 1){
         std::cout << tree[i].curr_q << std::endl;
         std::string temp_ans;
         std::cin >> temp_ans;
