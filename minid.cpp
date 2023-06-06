@@ -2,13 +2,11 @@
 #include <fstream>
 #include <string>
 #include "mineral.h"
-//#include "database.cpp"
 
 const int MAX = 200;
 Mineral tree[MAX];
 const int MLS = 30; //mineral list size
 std::string mineral_list[MLS];
-//NEED TO ACCOUNT FOR ANSWERS IF THEY TYPE NOTHING
 
 void assignTree(){
 
@@ -272,7 +270,7 @@ tree[25].q2 = -1;
 tree[25].q3 = -1;
 tree[25].q4 = -1;
 
-tree[100].curr_q = "interesting because I'm not sure it is on the list. Sorry about that one";
+tree[100].curr_q = "I don't know that one then not gonna lie...";
 tree[100].a1 = "";
 tree[100].a2 = "";
 tree[100].a3 = "";
@@ -608,7 +606,7 @@ int main(){
     }
     }
     int i = 0;
-    while(i < 100  || i != 1){
+    while(i < 100 && i != 1){
         std::cout << tree[i].curr_q << std::endl;
         std::string temp_ans;
         std::cin >> temp_ans;
@@ -630,7 +628,13 @@ int main(){
     
     final = i;
     }
-    std::cout << "If it's a mineral from the list, the mineral is " << tree[final].curr_q << std::endl; 
+    if(final == 1 || final == 100){
+        std::cout << tree[final].curr_q << std::endl;
+    } 
+    else{
+        std::cout << "If it's a mineral from the list, the mineral is " << tree[final].curr_q << std::endl; 
+    }
+    
     return 0;
 }
 
