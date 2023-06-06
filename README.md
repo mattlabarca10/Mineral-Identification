@@ -1,5 +1,6 @@
 # Mineral-Identification
-DISCLAIMER: Database is not finished yet as of 6/2/23!!!
+UPDATE 6/6/23: Database and integrated Mineral list are finished!!!
+Watch for any more updates: list of equipment needed, fun facts about your mineral, maybe even a website version??? Stay tuned :)
 
 This Mineral ID program asks you questions about a mineral you are trying to identify until the program is able to narrow it down from an internal list.
 - The list of minerals and the definitions you need to know will be accessible before you run the program

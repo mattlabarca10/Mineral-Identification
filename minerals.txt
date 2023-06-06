@@ -1,0 +1,29 @@
+Magnetite
+Graphite
+Galena
+Hematite
+Pyrite
+Chalcopyrite
+Hornblende 
+Augite
+Garnet
+Olivine
+Biotite Mica
+Limonite
+Hematite
+Malachite
+Bauxite
+Plagioclase
+Orthoclase
+Quartz
+Halite
+Chalcopyrite
+Limonite
+Sulfur
+Malachite
+Bauxite
+Muscovite Mica
+Selenite (Gypsum)
+Kaolinite
+Talc
+Alabaster (Gypsum)
