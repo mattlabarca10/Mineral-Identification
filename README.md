@@ -1,10 +1,9 @@
 # Mineral-Identification
-UPDATE 6/6/23: Database and integrated Mineral list are finished!!!
-Watch for any more updates: list of equipment needed, fun facts about your mineral, maybe even a website version??? Stay tuned :)
+As of 6/6/23 there is a full database and mineral list.
 (still might be some bugs, email me if you find any)
 
 This Mineral ID program asks you questions about a mineral you are trying to identify until the program is able to narrow it down from an internal list.
-- The list of minerals and the definitions you need to know will be accessible before you run the program
+- The list of possible minerals will be accessible before you run the program
 
 # How to run
 1. Clone this repo.
@@ -14,7 +13,7 @@ This Mineral ID program asks you questions about a mineral you are trying to ide
 
 If you want to start again type "./rock" again.
 
-If you want to clear unnecessary files from running the program, type "make clean".
+If you want to clear unnecessary files from when the program ran, type "make clean".
 
 - Note, you will have to start at step 3 again now.
 
