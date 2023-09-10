@@ -1,11 +1,10 @@
 # Mineral-Identification
 As of 6/6/23 there is a full database and mineral list.
-(still might be some bugs, email me if you find any)
 
 This Mineral ID program asks you questions about a mineral you are trying to identify until the program is able to narrow it down from an internal list.
 - The list of possible minerals will be accessible before you run the program
 
-# How to run
+# How to run (using Linux assuming make is installed)
 1. Clone this repo.
 2. Change directory to the cloned repo.
 3. Type "make" into the terminal.
