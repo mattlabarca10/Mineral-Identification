@@ -16,6 +16,6 @@ If you want to clear unnecessary files from when the program ran, type "make cle
 
 - Note, you will have to start at step 3 again now.
 
-# Contact
+# Contact Me
 - email: matlab0510@gmail.com
 - LinkedIn: https://www.linkedin.com/in/matthew-labarca/
